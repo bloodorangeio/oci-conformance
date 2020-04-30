@@ -78,7 +78,16 @@ __Test Results:__
 
 __Homepage:__ [https://github.com/goharbor/harbor](https://github.com/goharbor/harbor)
 
-_TODO_
+__Verified:__ no
+
+__Test Results:__
+
+| Workflow           | Status                                                                                                                                                                   | Test Report                                                                                              | Job Definition                                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------|
+| Pull               | [![](https://github.com/bloodorangeio/oci-conformance/workflows/harbor-1/badge.svg)](https://github.com/bloodorangeio/oci-conformance/actions?query=workflow%3Aharbor-1) | [Link](https://oci-conformance.s3.amazonaws.com/distribution-spec/harbor/pull/report.html)               | [Link](https://github.com/bloodorangeio/oci-conformance/blob/master/.github/workflows/harbor_1.yml) |
+| Push               | [![](https://github.com/bloodorangeio/oci-conformance/workflows/harbor-2/badge.svg)](https://github.com/bloodorangeio/oci-conformance/actions?query=workflow%3Aharbor-2) | [Link](https://oci-conformance.s3.amazonaws.com/distribution-spec/harbor/push/report.html)               | [Link](https://github.com/bloodorangeio/oci-conformance/blob/master/.github/workflows/harbor_2.yml) |
+| Content Discovery  | [![](https://github.com/bloodorangeio/oci-conformance/workflows/harbor-3/badge.svg)](https://github.com/bloodorangeio/oci-conformance/actions?query=workflow%3Aharbor-3) | [Link](https://oci-conformance.s3.amazonaws.com/distribution-spec/harbor/content-discovery/report.html)  | [Link](https://github.com/bloodorangeio/oci-conformance/blob/master/.github/workflows/harbor_3.yml) |
+| Content Management | [![](https://github.com/bloodorangeio/oci-conformance/workflows/harbor-4/badge.svg)](https://github.com/bloodorangeio/oci-conformance/actions?query=workflow%3Aharbor-4) | [Link](https://oci-conformance.s3.amazonaws.com/distribution-spec/harbor/content-management/report.html) | [Link](https://github.com/bloodorangeio/oci-conformance/blob/master/.github/workflows/harbor_4.yml) |
 
 ### quay/quay
 
