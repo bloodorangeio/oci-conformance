@@ -1,7 +1,7 @@
 # OCI Distribution Spec Conformance Results
 
 ---
-**⚠️ WARNING**
+<p><strong style="color: #bfac1d">⚠️ WARNING</strong></p>
 
 The test results found on this page do not indicate OCI conformance (or lack thereof) for any of the listed registries.
 This page is meant for informational purposes only.
