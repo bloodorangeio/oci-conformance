@@ -1,10 +1,18 @@
 # OCI Distribution Spec Conformance Results
 
+---
+**⚠️ WARNING**
+
+The test results found on this page do not indicate OCI conformance (or lack thereof) for any of the listed registries.
+This page is meant for informational purposes only.
+
+---
+
 Static HTML reports of [OCI Distribution Spec](https://github.com/bloodorangeio/distribution-spec) conformance tests run against various registries.
 
 See any bad or missing information? You are encouraged to [submit a pull request](https://github.com/bloodorangeio/oci-conformance/blob/master/distribution-spec/README.md).
 
-Note: test results are considered "verified" if a registry provider has submitted results to [oci-conformance](https://github.com/bloodorangeio/oci-conformance).
+Test results are considered "verified" if a registry provider has submitted results to [oci-conformance](https://github.com/bloodorangeio/oci-conformance).
 
 __Table of Contents:__
 
