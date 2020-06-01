@@ -29,7 +29,7 @@ jobs:
           echo "::set-env name=OCI_ROOT_URL::http://${IP}:5000"
           ZOT_REF="local-zot:v$(date +%Y%m%d%H%M%S)"
           sudo docker build -t "${ZOT_REF}" .
-          sudo docker run --rm -p 5000:5000 -v $(pwd).github/config/zot.yml:/etc/zot/config.yml -idt "${ZOT_REF}"
+          sudo docker run --rm -p 5000:5000 -v $(pwd).github/config/zot-config.yml:/etc/zot/config.yml -idt "${ZOT_REF}"
       - name: Run OCI Distribution Spec conformance tests
         uses: opencontainers/distribution-spec@master
         env:
