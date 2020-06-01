@@ -1,5 +1,8 @@
 name: zot-1
 on:
+  push:
+    branches:
+      - peter-monday
   repository_dispatch:
     types:
       - manual-trigger
