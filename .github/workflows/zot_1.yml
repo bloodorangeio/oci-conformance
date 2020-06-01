@@ -28,7 +28,7 @@ jobs:
           IP=`hostname -I | awk '{print $1}'`
           echo "::set-env name=OCI_ROOT_URL::http://$IP"
           ZOT_REF="local-zot:v$(date +%Y%m%d%H%M%S)"
-          docker build -t "${ZOT_REF}"
+          docker build -t "${ZOT_REF}" .
           docker run --rm -idt "${ZOT_REF}"
       - name: Run OCI Distribution Spec conformance tests
         uses: opencontainers/distribution-spec@master
