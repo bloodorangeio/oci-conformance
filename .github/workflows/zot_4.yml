@@ -29,6 +29,8 @@ jobs:
           repository: anuvu/zot
       - name: install zot
         run: |
+          mv main/.github/config/zot.yml ./zot
+          cd ./zot
           IP=`hostname -I | awk '{print $1}'`
           echo "::set-env name=OCI_ROOT_URL::http://${IP}:5000"
           ZOT_REF="local-zot:v$(date +%Y%m%d%H%M%S)"
