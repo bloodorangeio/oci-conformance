@@ -26,7 +26,7 @@ jobs:
       - name: install zot
         run: |
           IP=`hostname -I | awk '{print $1}'`
-          echo "::set-env name=OCI_ROOT_URL::http://$IP"
+          echo "::set-env name=OCI_ROOT_URL::http://${IP}:5000"
           ZOT_REF="local-zot:v$(date +%Y%m%d%H%M%S)"
           docker build -t "${ZOT_REF}" .
           docker run --rm -idt "${ZOT_REF}"
