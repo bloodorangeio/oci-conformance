@@ -26,6 +26,7 @@ jobs:
       - name: checkout Zot
         uses: actions/checkout@master
         with:
+          path: zot
           repository: anuvu/zot
       - name: install zot
         run: |
