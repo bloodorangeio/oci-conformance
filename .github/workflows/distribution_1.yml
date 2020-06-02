@@ -1,5 +1,8 @@
 name: distribution-1
 on:
+  push:
+    branches:
+      - distribution-demonstration
   repository_dispatch:
     types:
       - manual-trigger
