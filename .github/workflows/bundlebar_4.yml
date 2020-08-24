@@ -11,7 +11,7 @@ jobs:
         uses: opencontainers/distribution-spec@master
         env:
           OCI_ROOT_URL: https://bundle.bar
-          OCI_NAMESPACE: u/ocitest/content-management
+          OCI_NAMESPACE: u/${{ secrets.BUNDLE_BAR_USERNAME }}/ocitest/content-management
           OCI_USERNAME: ${{ secrets.BUNDLE_BAR_USERNAME }}
           OCI_PASSWORD: ${{ secrets.BUNDLE_BAR_PASSWORD }}
           OCI_TEST_CONTENT_MANAGEMENT: 1
