@@ -6,7 +6,7 @@ on:
       - manual-trigger-bundlebar
       - manual-trigger-bundlebar-2
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '10 7 * * *'
 jobs:
   run:
     runs-on: ubuntu-latest
